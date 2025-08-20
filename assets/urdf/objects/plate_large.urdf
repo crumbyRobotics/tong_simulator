@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<robot name="plate" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <link name="plate">
+    <visual>
+      <geometry>
+        <cylinder length="0.001" radius="0.045"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.001" radius="0.045"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>

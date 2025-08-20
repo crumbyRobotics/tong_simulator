@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="banana_scale" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <link name="banana_scale">
+    <inertial>
+      <mass value=".25"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <inertia ixx="1e-4" ixy="0" ixz="0" iyy="1e-4" iyz="0" izz="1e-4"/>
+    </inertial>
+    <visual>
+      <origin rpy="1.570796325 0 1.570796325" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://objects/meshes/banana_scale.obj"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 0 1.570796325" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://objects/meshes/banana_scale.stl"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>
