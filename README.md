@@ -4,7 +4,10 @@ Information: [Ryo Takizawa](https://crumbyrobotics.github.io/)
 
 A simulator for ISI's robot manipulator system, "Tong system".
 
-<video src="demo.mp4" controls loop height="300"></video>
+
+<video controls loop src="https://github.com/user-attachments/assets/43824e43-4a4b-493b-817c-469bd70ed6d3" muted="true" width=300></video>
+
+
 
 ## Environment
 
